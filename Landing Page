@@ -1,0 +1,227 @@
+#Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shiva Hair Oil</title>
+</head>
+<body>
+    <section class="l">
+        <div class="container">
+            <nav>
+                <h1>SHIVANI</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Ingredients</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Buy Now</a></li>
+                </ul>
+            </nav>
+            <div class="article">
+                <h1>Organic Hair Oil</h1>
+                <p>Welcome to Shivani Organic Hair Oil. Discover the secret to luscious, healthy hair with our all-natural, organic hair oil. Formulated with a unique blend of the finest organic ingredients, our hair oil nourishes your scalp and strengthens your hair from root to tip.</p>
+                <a href="#" class="btn">More Info</a>
+            </div>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                   
+                    <h2>About Shivani Organic Hair Oil</h2>
+                    <p>Shivani Organic Hair Oil is dedicated to providing the best hair care solutions using nature's finest ingredients. Our mission is to help you achieve healthy, beautiful hair without the use of harmful chemicals. Our unique formula combines the power of various essential oils and natural extracts to nourish, repair, and rejuvenate your hair.
+                Our organic hair oil is suitable for all hair types and is designed to promote hair growth, reduce hair fall, and improve overall hair health. Experience the difference with Shivani Organic Hair Oil and embrace the beauty of natural, healthy hair.</p>
+                </div>
+                <div class="about-image">
+                    <img src="i3.webp" alt="Girl in a jacket">
+                
+            </div>
+        </div>
+        <div class="about-points">
+            <ul>
+                <h1 style="color:green">Benefits of HairOil</h1>
+                <li><span class="icon">🌿</span> 100% Organic Ingredients</li>
+                <li><span class="icon">🌱</span> Promotes Hair Growth</li>
+                <li><span class="icon">🍃</span> Reduces Hair Fall</li>
+                <li><span class="icon">🌼</span> Improves Hair Health</li>
+                <li><span class="icon">👩‍🦱</span> Suitable for All Hair Types</li>
+            </ul>
+            <div class="points-image">
+                <img src="i4.jpg">
+            </div>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Shivani. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+#css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.l {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+nav {
+    height: 80px;
+}
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: #eb7620;
+}
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover {
+    background-color: #eb7620;
+}
+.article {
+    width: 40%;
+    margin: 0;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1 {
+    font-size: 35px;
+    color: greenyellow;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.article p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.article .btn {
+    color: #eb7620;
+    padding: 12px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-text, .about-points {
+    flex: 1;
+    padding: 1rem;
+}
+.about-text {
+    max-width: 60%;
+}
+.about-points {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+.points-list {
+    flex-basis: 50%; 
+}
+.points-image {
+    flex-basis: 55%; 
+    margin-left: 0%; 
+    margin-bottom: 10px;
+}
+.about-points ul {
+    list-style: none;
+    padding: 0;
+}
+.about-points ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 40px; 
+    margin-top: 10px;
+}
+.about-points ul li .icon {
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+    line-height: inherit;
+}
+.points-image img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    border-radius: 10px; 
+}
+.about-section h2
+{
+color: green;
+}
+.about-section p {
+    margin-top: 10px;
+    color:#333;
+    font-size: 20px;
+}
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+   margin-left: 21px;
+}
+.footer {
+    background-color:green;
+    color: white; 
+    padding: 20px 0;
+    text-align: center; 
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    margin: 0; 
+    font-size: 20px; 
+}
+.footer .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
