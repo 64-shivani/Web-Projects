@@ -1,0 +1,565 @@
+#Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">SHIVANI</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   
+    <section class="home">
+        <div class="home-content">
+            <h1>Welcome to my portfolio</h1>
+        
+            <p>Hi, I'm Shivani, a college student majoring in Computer Science at XYZ University.
+            I'm passionate about web development and specialize in creating dynamic and responsive websites.</p>
+       <div class="box">
+        <a href="#">Hire me</a>
+        <a href="#">More About Me</a>
+       </div>
+       <div class="images">
+        <img src="shivani.jpeg" class="girl" alt="shivani">
+
+       </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="shivani.jpeg" class="girl" alt="shivani">
+        </div>
+        <div class="about-text">
+            <h2>About me</h2>
+            <h4>Web Developer</h4>
+            <p>Hello! Iam shivani  With a passion for technology and problem-solving, I am continuously seeking opportunities to learn and grow in the dynamic field of computer science. I have developed proficiency in programming languages like Python, Java, and C++, and have experience in web development, data structures, algorithms, and database management. My journey includes working on various projects that highlight my technical skills and dedication, participating in coding clubs, attending tech conferences, and volunteering to use my skills for community benefit. I am eager to innovate and collaborate on projects that make a positive impact.</p>
+        </div>
+    </section>
+
+
+<section class="skills" id="skills">
+    <h1>Skills</h1>
+<div class="skill">
+  <div class="skill-name">HTML</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="90%" style="max-width:90%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <div class="skill-name">css</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="70%" style="max-width:70%"></div>
+      </div>
+</div>
+
+<div class="skill">
+    <div class="skill-name">JS</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="50%" style="max-width:50%"></div>
+      </div>
+</div>
+
+<div class="skill">
+    <div class="skill-name">Python</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="80%" style="max-width:80%"></div>
+      </div>
+</div>
+<div class="skill">
+    <div class="skill-name">java</div>
+      <div class="skill-bar">
+        <div class="skill-per" per="70%" style="max-width:70%"></div>
+      </div>
+</div>
+    </section>
+
+<section>
+    <div id="projects" >
+        <div class="main-text" id="project">
+            <h1>Project</h1>
+            <div class="content">
+                <div class="row">
+                    <img src="web.jpg">
+                    <div class="l">
+                     
+                        <h1><u>Web Development</h1></u>
+                        <p>I have extensive experience in web development, encompassing a variety of projects and skills. Below is an overview of my capabilities and achievements in this field:
+                            Created responsive websites using HTML, CSS, and JavaScript. These projects include dynamic and interactive designs that enhance user engagement and provide a seamless user experience.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="port.webp">
+                    <div class="l">
+                        <h1><u>Portfolio</h1></u>
+                        <p>Created a responsive personal portfolio website using HTML, CSS, .The site features an interactive design, showcasing my skills, projects, and contact information.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="evoting.jpg">
+                    <div class="l">
+                        <h1><u>Blockchain Presentation</h1></u>
+                    <p>Created a blockchain-based supply chain management system to track the lifecycle of products from manufacturing to delivery. This project uses Hyperledger Fabric to enhance transparency and traceability in supply chains.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="resume-section" id="resume">
+    <div class="container">
+        <h1>Resume</h1>
+        <p>Download my resume in PDF format:</p>
+        <div class="resume-download">
+            <a href="resume.pdf" download="resume.pdf">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<!---Contact-->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact us</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact information</h3>
+                <p>+91 6379984382</p>
+                <p>itshivanir@gmail.com</p>
+                <p>Tiruvarur, Tamil Nadu</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Shivani. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+
+#css
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color:#244D55;
+}
+h1{
+
+    color: #0ef;
+    font-size:46px;
+    font-weight: 700;
+    text-align: center;
+}
+.header
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+background-color: #060c21;
+}
+.logo
+{
+    font-size: 25px;
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+color:brown;
+}
+.home
+{
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding:70px 10% 0;
+    margin-top: 0px;
+}
+.home-content
+{
+    max-width: 600px;
+
+}
+.home-content h1
+{
+margin-right: 50px;
+}
+.home-content p
+{
+    color:white;
+margin-top: 10px;
+font-weight: 500;
+font-size:18px;
+}
+.home-content .box
+{
+    width:50%;
+    height:50px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box a{
+    position: relative;
+    width: 140px;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+letter-spacing: 1px;
+align-items: center;
+display: inline-flex;
+justify-content: center;
+text-decoration:none;
+background-color: #0ef;
+margin-top: 30px;
+border: 2px solid ;
+}
+.box a:hover {
+    background: linear-gradient(45deg, #5B86E5, #36D1DC); /* Reverse gradient on hover */
+}
+.box:before{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+z-index: -1;
+filter:blur(40px);
+}
+.box:before,
+.box::after{
+  background:linear-gradient(15deg,#89ff00,#060c21,#00bcd4);  
+}
+.images
+{
+width: 45%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100px;
+}
+.images img
+{
+    height:70%;
+    position:absolute;
+    left:60%;
+    bottom:10%;
+    transform:translateX(-50%);
+    border-radius: 50%;  
+}
+.about
+{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5%;
+}
+.about-img img{
+    
+    max-width:300px;
+    height:70%;
+    transform:translateX(20%);
+    border-radius: 40%;
+}
+.about-text h2{
+    font-size: 50px;
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+    color: black
+}
+.about-text p{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.skills
+{
+    width: 100%;
+    max-width:600px;
+    padding:0 20px;
+    margin-top:70px;
+    margin: 70px auto;
+    color: blue; 
+}
+.skill-name
+{
+    font-size:18px;
+    font-weight:700;
+    color:aliceblue;
+    text-transform: uppercase;
+    margin:20px 0;  
+}
+.skill-bar
+{
+    height:14px;
+    background: #060c21;
+    border-radius:3px;
+}
+.skill-per
+{
+    height:14px;
+    background:#d13639;
+    border-radius: 3px;
+    position:relative;
+    animation: fillBars 2.5s 1; 
+}
+.skill-per::before
+{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top:-35px;
+    right: 0; 
+    transform: translateX(50%);
+}
+.skill-per::after
+{
+    content: "";
+    position: absolute;
+    width:10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0%;
+    transform: translate(50%) rotate(45deg);
+border-radius:2px;
+}
+@keyframes fillBars
+{
+from
+{
+    width: 0;
+}
+to
+{
+    width: 100%;
+}
+}
+.skills h2{
+    font-size: 50px;
+    text-align: center;
+}
+/*project*/
+.main-text
+{
+    padding-top:10px;
+    margin-top: 160px;
+}
+.content
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px,auto));
+}
+.row
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition:transform 0.5s;
+    margin-top: 20px;    
+}
+.l h1 {
+    color:#0ef;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.l p {
+    color:white;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 500; 
+}
+.row:hover img {
+    transform: scale(1.1);
+}
+.row:hover .l {
+    height: 100%;
+}
+/*--resume*/
+.resume-section {
+   
+    padding: 80px 0;
+    text-align: center;
+}
+.resume-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.resume-section p {
+    font-size: 28px;
+    color:white;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.resume-download a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.resume-download a:hover {
+    background-color: #0056b3;
+}
+.contact {
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0ef;
+}
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-left: 140px;
+}
+.contact-form {
+    text-align: left;
+}
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #4b45a0;
+}
+.contact-info {
+    text-align: left;
+}
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    color: white;
+}
+/* CSS for Footer */
+.footer {
+    background-color:#060c21; 
+    color: white; 
+    padding: 20px 0;
+    text-align: center; 
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    margin: 0; 
+    font-size: 20px; 
+}
+.footer .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+
+
